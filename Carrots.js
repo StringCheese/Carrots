@@ -15,7 +15,7 @@ function createXmlHttpRequestObject(){
 function process() {
 	if(xmlHttp) {
 		try{
-			xmlHttp.open("GET", "Carrots.txt", true);
+			xmlHttp.open("GET", window.location.href = "http://media.mercola.com/assets/images/food-facts/carrot-nutrition-facts.jpg", true);
 			xmlHttp.onreadystatechange = handleServerResponse;
 			xmlHttp.send(null);
 		}
